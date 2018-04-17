@@ -1,0 +1,88 @@
+* {
+    box-sizing : border-box;
+}
+html {
+    text-align:center;
+    font-family: Arial;
+}
+.nav-wrapper {
+    width: 900px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+#logo{
+    /* height: 150px;
+    width: 330px; */
+    padding: 1px;
+    
+}
+.navButton{
+    background: #f2f2f2;
+    margin:5px;
+    margin-top: 80px;
+    padding: 0px 20px;
+    border-radius: 5px;
+    height: 50px;
+    border: none;
+    border-bottom: 2px solid white;
+}
+.nav-content{
+    background: rgb(224, 238, 238);
+    text-align: left;
+    margin: 30px;
+    padding: 20px;
+    width: 900px;
+   
+}
+.nav-content p {
+    margin: 10px;
+}
+.navCircles{
+    border-radius: 50%;
+    border:3px solid gray;
+    height: 150px;
+    padding:3px;
+    width:150px;
+    
+    margin: 10px;
+}
+#smiling-man{
+    float: right;
+    height: 400px;
+    width: 400px;
+    
+}
+.row {
+    display: flex;
+   flex-direction: row;
+    text-align: left;
+    width: 900px;
+}
+.column {
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    word-wrap: break-word;
+    border: 1px solid black;
+}
+.left .right {
+    flex: 25%;
+    padding: 20px;
+}
+.middle {
+    flex: 50%;
+    padding: 20px;
+}
+.footer {
+    color:gray;
+    display: flex;
+    
+}
+.footer > section {
+    flex-direction: column;
+}
+#copyright {
+    text-align: center;
+}

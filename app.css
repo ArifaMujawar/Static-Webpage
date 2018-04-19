@@ -13,20 +13,23 @@ html {
     flex-wrap: nowrap;
 }
 #logo{
-    /* height: 150px;
-    width: 330px; */
-    padding: 1px;
-    
+    margin-left: 30px;
 }
 .navButton{
-    background: #f2f2f2;
+    background:  #ECECED;
+    font-weight: 900px;
     margin:5px;
     margin-top: 80px;
-    padding: 0px 20px;
+    padding: 10px;
     border-radius: 5px;
     height: 50px;
-    border: none;
-    border-bottom: 2px solid white;
+    border: 2px solid rgb(212, 211, 211);
+    color: rgb(40, 64, 71);;
+   
+}
+.navButton:hover {
+    background: #3A5E69;
+    color: white;
 }
 .nav-content{
     background: rgb(224, 238, 238);
@@ -34,55 +37,103 @@ html {
     margin: 30px;
     padding: 20px;
     width: 900px;
-   
+    height: 400px;
 }
 .nav-content p {
-    margin: 10px;
+    margin: 20px 0px;
+    padding: 10px;
+    color: #3A5E69;
 }
+
 .navCircles{
     border-radius: 50%;
     border:3px solid gray;
     height: 150px;
     padding:3px;
     width:150px;
-    
-    margin: 10px;
+    margin: 0 5px; 
 }
-#smiling-man{
+#text {
+    margin: 1px;
+}
+ #smiling-man{
     float: right;
     height: 400px;
-    width: 400px;
-    
-}
+    width: 270px;
+    margin: -50px 2px 1px 2px;
+} 
 .row {
     display: flex;
-   flex-direction: row;
+    flex-direction: row;
     text-align: left;
     width: 900px;
+    font-weight: 500px;
 }
+ .row h5{
+    color: rgb(40, 64, 71);
+}
+
 .column {
     float: left;
     padding: 10px;
     margin: 10px;
     word-wrap: break-word;
-    border: 1px solid black;
+    font-size: 15px;
+    line-height: 23px;
 }
-.left .right {
-    flex: 25%;
-    padding: 20px;
+.left  {
+    width: 25%;
+    padding: 10px;
+    order : 1;
+    margin: 3px;
+}
+.right {
+    width: 25%;
+    padding: 10px;
+    order: 3;
+    margin: 3px;
 }
 .middle {
-    flex: 50%;
-    padding: 20px;
+    width: 50%;
+    padding: 10px;
+    order: 2;
+    margin: 3px;
+}
+ul {
+    list-style-type: none;
+    margin: -10px;
 }
 .footer {
-    color:gray;
+    color:#3A5E69;
+    height: 200px;
+    background:#F5F5F5; 
     display: flex;
     
 }
 .footer > section {
-    flex-direction: column;
+    flex-direction: row;
+    background:#F5F5F5;
+    color: #A0A0A0;
+    font-size: 17px;
+    padding: 2px;
+    margin: 0px;
 }
 #copyright {
     text-align: center;
+    position: absolute;
+    bottom: -10px;
+   
+    color: rgb(219, 218, 218);
+    /* left :0px;
+    right: 0px;
+    margin-top: 30px;
+    padding: 0 10px; */
 }
+
+/* font text color: #3A5E69
+Hover button color: #3A5E69
+nav content blue color: #BFD2D9
+button background color: #ECECED
+
+footer etxt: #BDBDBD #A5A5A5
+ */

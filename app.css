@@ -2,8 +2,13 @@
     box-sizing : border-box;
 }
 html {
-    text-align:center;
+    margin: 0 auto;
     font-family: Arial;
+}
+.container {
+    width: 1000px;
+   margin: 0 auto;
+   background: #FFFFFF;
 }
 .nav-wrapper {
     width: 900px;
@@ -25,24 +30,28 @@ html {
     height: 50px;
     border: 2px solid rgb(212, 211, 211);
     color: rgb(40, 64, 71);;
-   
+}
+a {
+    color: inherit;
 }
 .navButton:hover {
     background: #3A5E69;
     color: white;
 }
 .nav-content{
-    background: rgb(224, 238, 238);
+    background: #DAE4E6;
     text-align: left;
-    margin: 30px;
+    margin: 0px;
+    margin-top: 30px;
     padding: 20px;
-    width: 900px;
+    width: 1000px;
     height: 400px;
+    
 }
 .nav-content p {
-    margin: 20px 0px;
+    margin-top: 20px;
     padding: 10px;
-    color: #3A5E69;
+    color: rgb(46, 76, 85);
 }
 
 .navCircles{
@@ -59,15 +68,16 @@ html {
  #smiling-man{
     float: right;
     height: 400px;
-    width: 270px;
-    margin: -50px 2px 1px 2px;
+    width: 400px;
+    margin: -50px -30px 1px 2px;
 } 
 .row {
     display: flex;
     flex-direction: row;
     text-align: left;
-    width: 900px;
+    width: 1000px;
     font-weight: 500px;
+    margin-top:5px;
 }
  .row h5{
     color: rgb(40, 64, 71);
@@ -91,7 +101,7 @@ html {
     width: 25%;
     padding: 10px;
     order: 3;
-    margin: 3px;
+    margin: 20px;
 }
 .middle {
     width: 50%;
@@ -99,35 +109,47 @@ html {
     order: 2;
     margin: 3px;
 }
-ul {
-    list-style-type: none;
-    margin: -10px;
+#small-image {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 13px;
 }
+
 .footer {
     color:#3A5E69;
-    height: 200px;
+    height: 8%;
     background:#F5F5F5; 
     display: flex;
-    
 }
 .footer > section {
     flex-direction: row;
     background:#F5F5F5;
     color: #A0A0A0;
-    font-size: 17px;
-    padding: 2px;
+    padding: 20px;
+    margin: 14px;
+}
+.footer-header {
+    margin: 3px;
+}
+.footer-data {
+    padding: 4px;
+    font-size: 13px;
     margin: 0px;
+}
+.footer-icon {
+    padding: 8px;
+   
 }
 #copyright {
     text-align: center;
     position: absolute;
-    bottom: -10px;
-   
-    color: rgb(219, 218, 218);
-    /* left :0px;
+    left: 0px;
     right: 0px;
-    margin-top: 30px;
-    padding: 0 10px; */
+    color: rgb(219, 218, 218);
+    font-size: 15px;
+    margin: 8px;
+    
 }
 
 /* font text color: #3A5E69
